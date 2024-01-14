@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-zero",
+  "version": "1.0.0",
+  "description": "Tu hoc nodejs",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrongDat02/Mynodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend"
+  ],
+  "author": "dat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrongDat02/Mynodejs/issues"
+  },
+  "homepage": "https://github.com/TrongDat02/Mynodejs#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
