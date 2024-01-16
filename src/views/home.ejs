@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+    </ul>
+    <form action="create" method="post">
+        <div class="form">
+            <div class="input-group">
+                <label>Firstname:</label>
+                <input type="text" name="firstname" />
+            </div>
+            <div class="input-group">
+                <label>Lastname:</label>
+                <input type="text" name="lastname" />
+            </div>
+            <div class="input-group">
+                <label>Email:</label>
+                <input type="text" name="email" />
+            </div>
+            <div class="input-group">
+                <label>Createat:</label>
+                <input type="datetime" name="createat" />
+            </div>
+            <div class="input-group">
+                <label>Updateat:</label>
+                <input type="datetime" name="updateat" />
+            </div>
+            <button>Save</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 const getHomepage = (req, res) => {
-    res.send('Hello World!')
+    return res.render('home.ejs')
 }
 
 
@@ -12,6 +12,10 @@ const getView = (req, res) => {
     res.render('vidu.ejs')
 }
 
+const postCreateuser = (req, res) => {
+    res.send('Hello World! toi la dat')
+}
+
 module.exports = {
-    getHomepage, getAbc, getView
+    getHomepage, getAbc, getView, postCreateuser
 }
